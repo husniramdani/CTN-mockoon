@@ -1,0 +1,197 @@
+{
+  "uuid": "924d800e-490d-4b2c-918a-87a8cbf084c4",
+  "lastMigration": 28,
+  "name": "Veterinary clinic",
+  "endpointPrefix": "api/v1",
+  "latency": 0,
+  "port": 5555,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "e72f1787-a6d6-4750-a1b5-2e3258dcf635",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "users",
+      "responses": [
+        {
+          "uuid": "6b510262-7c68-4fd1-b1e8-29ec756dd2df",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "mhmr",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        },
+        {
+          "uuid": "41ab69f4-ebf8-4d5d-a351-b70432335723",
+          "body": "",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "265953ef-cedb-472d-a2d8-2d964c59e145",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "roles",
+      "responses": [
+        {
+          "uuid": "65b3e21b-ef57-4d87-a0fc-ace87a6dafe0",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "frxp",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "73463d71-d17f-43fd-92f8-78120a1db4e8",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "owner",
+      "responses": [
+        {
+          "uuid": "b1a209cf-40a1-4a09-8252-1572938f9076",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "pi6l",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "e72f1787-a6d6-4750-a1b5-2e3258dcf635"
+    },
+    {
+      "type": "route",
+      "uuid": "265953ef-cedb-472d-a2d8-2d964c59e145"
+    },
+    {
+      "type": "route",
+      "uuid": "73463d71-d17f-43fd-92f8-78120a1db4e8"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "265e26b6-4f8d-4b79-9743-c861004d3dbf",
+      "id": "mhmr",
+      "name": "Users",
+      "documentation": "",
+      "value": "[\r\n {\r\n  \"createdAt\": \"2023-08-14T23:08:01.877Z\",\r\n  \"name\": \"Kathy Bechtelar\",\r\n  \"username\": \"Zita1\",\r\n  \"email\": \"Naomie.Von@gmail.com\",\r\n  \"id\": \"2\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T11:47:34.650Z\",\r\n  \"name\": \"Drew Fadel\",\r\n  \"username\": \"Brannon.Gutmann82\",\r\n  \"email\": \"Robert_Dach@hotmail.com\",\r\n  \"id\": \"3\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T12:00:42.520Z\",\r\n  \"name\": \"Gregg Rodriguez\",\r\n  \"username\": \"Mathias31\",\r\n  \"email\": \"Ron.Funk36@yahoo.com\",\r\n  \"id\": \"4\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-14T19:49:37.727Z\",\r\n  \"name\": \"Miss Nina Strosin DDS\",\r\n  \"username\": \"Orlando.Kerluke\",\r\n  \"email\": \"Avery63@yahoo.com\",\r\n  \"id\": \"5\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T14:38:50.614Z\",\r\n  \"name\": \"Carmen Murray\",\r\n  \"username\": \"Narciso23\",\r\n  \"email\": \"Riley_Mitchell@hotmail.com\",\r\n  \"id\": \"7\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T13:06:03.135Z\",\r\n  \"name\": \"Mr. Rachael Harber\",\r\n  \"username\": \"Vernie36\",\r\n  \"email\": \"Nina71@yahoo.com\",\r\n  \"id\": \"9\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-14T22:19:22.660Z\",\r\n  \"name\": \"Dewey Stoltenberg\",\r\n  \"username\": \"Lorenza39\",\r\n  \"email\": \"Bradford_Tromp98@hotmail.com\",\r\n  \"id\": \"10\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T06:54:26.267Z\",\r\n  \"name\": \"Steve Shanahan\",\r\n  \"username\": \"Roy_Kulas\",\r\n  \"email\": \"Carlo_Howe69@hotmail.com\",\r\n  \"id\": \"11\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T04:26:38.459Z\",\r\n  \"name\": \"Frances Ward III\",\r\n  \"username\": \"Marcelino_Turcotte\",\r\n  \"email\": \"Dallas_Cole@gmail.com\",\r\n  \"id\": \"13\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T04:24:54.249Z\",\r\n  \"name\": \"Desiree O'Reilly\",\r\n  \"username\": \"Tyson.Shanahan\",\r\n  \"email\": \"Alia_Pollich@gmail.com\",\r\n  \"id\": \"14\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T04:27:54.122Z\",\r\n  \"name\": \"Mrs. Noah Nicolas\",\r\n  \"username\": \"Kory.Swaniawski\",\r\n  \"email\": \"Danika90@hotmail.com\",\r\n  \"id\": \"15\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T07:13:26.318Z\",\r\n  \"name\": \"Wilfred Volkman\",\r\n  \"username\": \"Estefania23\",\r\n  \"email\": \"Nathanael81@gmail.com\",\r\n  \"id\": \"16\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-14T15:16:39.227Z\",\r\n  \"name\": \"Craig Ebert\",\r\n  \"username\": \"Zelma_Bergstrom\",\r\n  \"email\": \"Shaun41@yahoo.com\",\r\n  \"id\": \"17\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-15T01:46:37.679Z\",\r\n  \"name\": \"Marianne McKenzie\",\r\n  \"username\": \"Antonette_Kirlin\",\r\n  \"email\": \"Nolan_Ratke@hotmail.com\",\r\n  \"id\": \"18\"\r\n }\r\n]"
+    },
+    {
+      "uuid": "374d6499-d94c-466c-8a78-38b613c22cd2",
+      "id": "frxp",
+      "name": "Roles",
+      "documentation": "",
+      "value": "[\r\n {\r\n  \"createdAt\": \"2023-07-28T08:17:04.418Z\",\r\n  \"name\": \"Doctor\",\r\n  \"description\": \"Docter bertangung jawab untuk menangani pasien\",\r\n  \"id\": \"1\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-07-27T17:37:37.023Z\",\r\n  \"name\": \"Paramedis\",\r\n  \"description\": \"Paramedis bertangung jawab untuk\",\r\n  \"id\": \"2\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-07-27T18:55:09.119Z\",\r\n  \"name\": \"Administrator\",\r\n  \"description\": \"Administrator bertangung jawab untuk\",\r\n  \"id\": \"3\"\r\n },\r\n {\r\n  \"createdAt\": \"2023-08-03T23:13:51.399Z\",\r\n  \"name\": \"Security\",\r\n  \"description\": \"menjaga semuanya edited\",\r\n  \"id\": \"4\"\r\n }\r\n]"
+    },
+    {
+      "uuid": "b22884ea-805d-4ca7-aaaa-4d4d7fa2f6f0",
+      "id": "pi6l",
+      "name": "Owner",
+      "documentation": "",
+      "value": "[\r\n    {\r\n      \"id\": \"1000\",\r\n      \"name\": \"Maida\",\r\n      \"email\": \"maida@example.com\",\r\n      \"phoneNumber\": \"081264229321\",\r\n      \"address\": \"Jl. Batu Kapur No.71\",\r\n      \"pets\": [\"Gulu\", \"Kumi\"]\r\n    },\r\n    {\r\n      \"id\": \"1001\",\r\n      \"name\": \"Krisma\",\r\n      \"email\": \"krisma@example.com\",\r\n      \"phoneNumber\": \"081264229322\",\r\n      \"address\": \"Jl. Batu Kapur No.73\",\r\n      \"pets\": [\"Simba\"]\r\n    }\r\n  ]"
+    }
+  ]
+}
