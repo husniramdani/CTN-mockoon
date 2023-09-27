@@ -89,7 +89,7 @@
       "type": "crud",
       "documentation": "",
       "method": "",
-      "endpoint": "owner",
+      "endpoint": "owners",
       "responses": [
         {
           "uuid": "b1a209cf-40a1-4a09-8252-1572938f9076",
@@ -101,6 +101,180 @@
           "bodyType": "DATABUCKET",
           "filePath": "",
           "databucketID": "pi6l",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "40d9ea41-8bf4-4f58-ac02-37b1c9560606",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "animal-type",
+      "responses": [
+        {
+          "uuid": "4e7a59a0-52be-41ea-bcad-88a5eb577a89",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "t7gy",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "26d80f31-6cfd-4023-a965-9efb8ceeb487",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "breeds",
+      "responses": [
+        {
+          "uuid": "3d680368-5e90-4294-a438-3d15cb58ad98",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "ip90",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "1d36350f-8e2e-4d69-a9b4-878c6f948981",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "pets",
+      "responses": [
+        {
+          "uuid": "6414c63d-cdb9-4cf4-bce7-0e2b3e2321fb",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "ftuk",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "7e6f58c5-d16c-441a-a61f-7eba3b35d830",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "cages",
+      "responses": [
+        {
+          "uuid": "709dd2a4-9571-4dfc-8c9e-30b246258095",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "9h59",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "6f612004-477e-45b2-a53f-b782b3c2437b",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "surgery",
+      "responses": [
+        {
+          "uuid": "e1380888-0d68-4e2b-a918-56372e12e3a5",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "s1ad",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "f8759e10-e67d-4fbc-92c8-121a20cf183e",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "vaccine",
+      "responses": [
+        {
+          "uuid": "d5c91ce6-5f88-42d6-b70a-8c3f57eead2b",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "zzuo",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -126,6 +300,30 @@
     {
       "type": "route",
       "uuid": "73463d71-d17f-43fd-92f8-78120a1db4e8"
+    },
+    {
+      "type": "route",
+      "uuid": "40d9ea41-8bf4-4f58-ac02-37b1c9560606"
+    },
+    {
+      "type": "route",
+      "uuid": "26d80f31-6cfd-4023-a965-9efb8ceeb487"
+    },
+    {
+      "type": "route",
+      "uuid": "1d36350f-8e2e-4d69-a9b4-878c6f948981"
+    },
+    {
+      "type": "route",
+      "uuid": "7e6f58c5-d16c-441a-a61f-7eba3b35d830"
+    },
+    {
+      "type": "route",
+      "uuid": "6f612004-477e-45b2-a53f-b782b3c2437b"
+    },
+    {
+      "type": "route",
+      "uuid": "f8759e10-e67d-4fbc-92c8-121a20cf183e"
     }
   ],
   "proxyMode": false,
@@ -192,6 +390,48 @@
       "name": "Owner",
       "documentation": "",
       "value": "[\r\n    {\r\n      \"id\": \"1000\",\r\n      \"name\": \"Maida\",\r\n      \"email\": \"maida@example.com\",\r\n      \"phoneNumber\": \"081264229321\",\r\n      \"address\": \"Jl. Batu Kapur No.71\",\r\n      \"pets\": [\"Gulu\", \"Kumi\"]\r\n    },\r\n    {\r\n      \"id\": \"1001\",\r\n      \"name\": \"Krisma\",\r\n      \"email\": \"krisma@example.com\",\r\n      \"phoneNumber\": \"081264229322\",\r\n      \"address\": \"Jl. Batu Kapur No.73\",\r\n      \"pets\": [\"Simba\"]\r\n    }\r\n  ]"
+    },
+    {
+      "uuid": "8e657a22-7ee9-4119-a71e-c1c6d4c8d339",
+      "id": "t7gy",
+      "name": "Animal Types",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1\",\n    \"name\": \"dog\",\n    \"description\": \"Dog\",\n    \"label\": \"dog\",\n    \"value\": \"dog\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"cat\",\n    \"description\": \"cat\",\n    \"label\": \"cat\",\n    \"value\": \"cat\"\n  }\n]"
+    },
+    {
+      "uuid": "9eb428cf-fab1-4fbe-810c-bc399aaedc15",
+      "id": "ip90",
+      "name": "Breeds",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1\",\n    \"name\": \"German Shepherd\",\n    \"animalType\": \"Dog\",\n    \"description\": \"Dog of medium to large size\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"Chihuahua\",\n    \"animalType\": \"Dog\",\n    \"description\": \"Smallest of all dog breeds\"\n  },\n  {\n    \"id\": \"3\",\n    \"name\": \"Golden Retriever\",\n    \"animalType\": \"Dog\",\n    \"description\": \"Dog of medium size\"\n  }\n]"
+    },
+    {
+      "uuid": "4dcfe38d-77f1-4db8-932e-6e35e8f21cf4",
+      "id": "ftuk",
+      "name": "Pets",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1000\",\n    \"owner\": \"Maida\",\n    \"name\": \"Gulu\",\n    \"breed\": \"Persian\",\n    \"dateOfBirth\": \"01-07-2021\",\n    \"gender\": \"Male\"\n  },\n  {\n    \"id\": \"1001\",\n    \"owner\": \"Maida\",\n    \"name\": \"Kumi\",\n    \"breed\": \"Persian\",\n    \"dateOfBirth\": \"01-07-2021\",\n    \"gender\": \"Male\"\n  }\n]"
+    },
+    {
+      "uuid": "6a116a2c-1b83-43d8-add7-9cff573595df",
+      "id": "9h59",
+      "name": "Cages",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1\",\n    \"name\": \"R.1\",\n    \"location\": \"Ruang Game\",\n    \"description\": \"Obat Dingin\",\n    \"status\": \"Tersedia\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"R.2\",\n    \"location\": \"Ruang Angkasa\",\n    \"description\": \"Obat Dingin\",\n    \"status\": \"Terisi\"\n  },\n  {\n    \"id\": \"3\",\n    \"name\": \"R.3\",\n    \"location\": \"Ruang Game\",\n    \"description\": \"Obat Dingin\",\n    \"status\": \"Dalam Pemeliharaan\"\n  }\n]"
+    },
+    {
+      "uuid": "4984cada-948b-450d-80b9-e59441405b08",
+      "id": "s1ad",
+      "name": "Surgery",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1\",\n    \"name\": \"Sterilisasi\",\n    \"description\": \"Membantu meningkatkan kesehatan hewan. Sterilisasi efektif mencegah tumor kelenjar susu dan kanker ovarium serta rahim pada hewan\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"Bukan Sterilisasi\",\n    \"description\": \"Membantu meningkatkan kesehatan hewan. Sterilisasi efektif mencegah tumor kelenjar susu dan kanker ovarium serta rahim pada hewan\"\n  }\n]"
+    },
+    {
+      "uuid": "c2a56d09-cdc9-4a9a-bc91-ce86cd05c982",
+      "id": "zzuo",
+      "name": "Vaccines",
+      "documentation": "",
+      "value": "[\n  {\n    \"id\": \"1\",\n    \"name\": \"Vaksin Rabies\",\n    \"description\": \"Penyakit ini termasuk zoonosis penting di Indonesia yang dapat menular dari hewan ke manusia atau sebaliknya\"\n  },\n  {\n    \"id\": \"2\",\n    \"name\": \"Vaksin Tidak Rabies\",\n    \"description\": \"Penyakit ini tidak termasuk zoonosis penting di Indonesia yang dapat menular dari hewan ke manusia atau sebaliknya\"\n  }\n]"
     }
   ]
 }
